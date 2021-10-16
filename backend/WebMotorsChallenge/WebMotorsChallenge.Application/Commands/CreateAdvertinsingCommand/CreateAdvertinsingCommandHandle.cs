@@ -11,20 +11,20 @@ using WebMotorsChallenge.Domain.Interfaces.Repositories;
 
 namespace WebMotorsChallenge.Application.Commands.CreateAdvertisingCommand
 {
-    public class CreateAdvertisingCommandHandle : IRequestHandler<CreateAdvertisingCommandRequest, CreateAdvertisingCommandResponse>
+    public class CreateAdvertinsingCommandHandle : IRequestHandler<CreateAdvertinsingCommandRequest, CreateAdvertinsingCommandResponse>
     {
 
         private readonly IMapper _mapper;
         private readonly IAdvertisingRepository _advertisingRepository;
-        public CreateAdvertisingCommandHandle(IMapper mapper, IAdvertisingRepository advertisingRepository)
+        public CreateAdvertinsingCommandHandle(IMapper mapper, IAdvertisingRepository advertisingRepository)
         {
             _mapper = mapper;
             _advertisingRepository = advertisingRepository;
         }
 
-        public async  Task<CreateAdvertisingCommandResponse> Handle(CreateAdvertisingCommandRequest request, CancellationToken cancellationToken)
+        public async  Task<CreateAdvertinsingCommandResponse> Handle(CreateAdvertinsingCommandRequest request, CancellationToken cancellationToken)
         {
-            var response = new CreateAdvertisingCommandResponse(true);
+            var response = new CreateAdvertinsingCommandResponse(true);
             try
             {               
                 await _advertisingRepository.Save(_mapper.Map<Adversiting>(request));

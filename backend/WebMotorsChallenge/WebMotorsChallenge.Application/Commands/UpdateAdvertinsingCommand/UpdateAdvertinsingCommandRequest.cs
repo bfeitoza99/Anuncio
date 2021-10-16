@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebMotorsChallenge.Application.Commands.CreateAdvertisingCommand
+namespace WebMotorsChallenge.Application.Commands.UpdateAdvertinsingCommand
 {
-    public class CreateAdvertisingCommandRequest :  IRequest<CreateAdvertisingCommandResponse>
+    public class UpdateAdvertinsingCommandRequest : IRequest<UpdateAdvertinsingCommandResponse>
     {
+        public int Id { get; set; }
         public string Mark { get; set; }
 
         public string Model { get; set; }
@@ -22,4 +23,3 @@ namespace WebMotorsChallenge.Application.Commands.CreateAdvertisingCommand
         public string Note { get; set; }
     }
 }
-

@@ -13,4 +13,8 @@
     <ProjectReference Include="..\WebMotorsChallenge.Domain\WebMotorsChallenge.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="AppServices\" />
+  </ItemGroup>
+
 </Project>

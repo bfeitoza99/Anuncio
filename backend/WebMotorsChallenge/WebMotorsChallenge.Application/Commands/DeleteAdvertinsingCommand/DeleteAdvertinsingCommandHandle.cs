@@ -12,13 +12,10 @@ namespace WebMotorsChallenge.Application.Commands.DeleteAdvertinsingCommand
 {
     public class DeleteAdvertinsingCommandHandle : IRequestHandler<DeleteAdvertinsingCommandRequest, DeleteAdvertinsingCommandResponse>
     {
-
-        private readonly IMapper _mapper;
         private readonly IAdvertisingRepository _advertisingRepository;
-        public DeleteAdvertinsingCommandHandle(IMapper mapper, IAdvertisingRepository advertisingRepository)
+        public DeleteAdvertinsingCommandHandle(IAdvertisingRepository advertisingRepository)
         {
-            _mapper = mapper;
-            _advertisingRepository = advertisingRepository;
+           _advertisingRepository = advertisingRepository;
         }
 
         public async Task<DeleteAdvertinsingCommandResponse> Handle(DeleteAdvertinsingCommandRequest request, CancellationToken cancellationToken)

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using WebMotorsChallenge.Application.Commands.CreateAdvertisingCommand;
+using WebMotorsChallenge.Application.Commands.UpdateAdvertinsingCommand;
 using WebMotorsChallenge.Application.Queries.AdversitingQuery;
 using WebMotorsChallenge.Application.Queries.AdvertisementsQuery;
 using WebMotorsChallenge.Domain.Entities;
@@ -11,14 +12,18 @@ namespace WebMotorsChallenge.CrossCutting.AutoMapper
             public AutoMapperSetup()
             {
                 #region CommandToEntity 
-                CreateMap<CreateAdvertisingCommandRequest, Adversiting>();
+                CreateMap<CreateAdvertinsingCommandRequest, Adversiting>();
+                CreateMap<UpdateAdvertinsingCommandRequest, Adversiting>();
                 #endregion
 
-            #region EnityToQuery
-            CreateMap<Adversiting, AdvertisementsItems>();
-            CreateMap<Adversiting, AdversitingQueryResponse>();
+                #region EnityToCommand
+                CreateMap<Adversiting, UpdateAdvertinsingCommandResponse>();
+                #endregion
 
-            #endregion
+                #region EnityToQuery
+                CreateMap<Adversiting, AdvertisementsItems>();
+                CreateMap<Adversiting, AdversitingQueryResponse>();
+                #endregion
 
         }
     }

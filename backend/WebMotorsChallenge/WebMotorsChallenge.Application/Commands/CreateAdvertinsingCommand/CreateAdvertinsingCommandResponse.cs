@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace WebMotorsChallenge.Application.Commands.CreateAdvertisingCommand
 {
-    public class CreateAdvertisingCommandResponse
+    public class CreateAdvertinsingCommandResponse
     {
-        public CreateAdvertisingCommandResponse(bool isSucess)
+        public CreateAdvertinsingCommandResponse(bool isSucess)
         {
             IsSucess = isSucess;
         }

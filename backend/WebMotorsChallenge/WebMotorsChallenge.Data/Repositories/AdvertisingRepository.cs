@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -47,11 +48,10 @@ namespace WebMotorsChallenge.Data.Repositories
 
         public async Task<Adversiting> Update(Adversiting adversiting)
         {
-            _context.Adversiting.Update(adversiting);
+            _context.Entry<Adversiting>(adversiting).State = EntityState.Modified;
             await _unitOfWork.Commit();
             return adversiting;
         }
-
         public void Dispose()
         {
             _context.Dispose();

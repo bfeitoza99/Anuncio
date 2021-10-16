@@ -7,6 +7,7 @@ using System;
 using System.Threading.Tasks;
 using WebMotorsChallenge.Application.Commands.CreateAdvertisingCommand;
 using WebMotorsChallenge.Application.Commands.DeleteAdvertinsingCommand;
+using WebMotorsChallenge.Application.Commands.UpdateAdvertinsingCommand;
 using WebMotorsChallenge.Application.Queries.AdversitingQuery;
 using WebMotorsChallenge.Application.Queries.AdvertisementsQuery;
 
@@ -65,10 +66,10 @@ namespace WebMotorsChallenge.API.Controllers
         }
 
         [HttpPost]
-        [ProducesResponseType(typeof(CreateAdvertisingCommandResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(CreateAdvertinsingCommandResponse), StatusCodes.Status200OK)]
         public async Task<IActionResult> Post([FromServices] IMediator mediator,
                                                             [FromServices] ILogger<AdvertisingController> logger, 
-                                                            [FromBody] CreateAdvertisingCommandRequest request )
+                                                            [FromBody] CreateAdvertinsingCommandRequest request )
         {
             try
             {
@@ -100,6 +101,30 @@ namespace WebMotorsChallenge.API.Controllers
                 logger.LogInformation($"Delete an Advertising with id: {id}");
 
                 var result = await mediator.Send(new DeleteAdvertinsingCommandRequest(id));
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+
+                logger.LogInformation(ex.Message);
+
+                return BadRequest(StatusCodes.Status400BadRequest);
+
+            }
+        }
+
+        [HttpPut]
+        [ProducesResponseType(typeof(UpdateAdvertinsingCommandResponse), StatusCodes.Status200OK)]
+        public async Task<IActionResult> Put([FromServices] IMediator mediator,
+                                                            [FromServices] ILogger<AdvertisingController> logger,
+                                                            [FromBody] UpdateAdvertinsingCommandRequest request)
+        {
+            try
+            {
+                logger.LogInformation($"Update an Advertising with proprerties: {JsonConvert.SerializeObject(request)}");
+
+                var result = await mediator.Send(request);
 
                 return Ok(result);
             }
