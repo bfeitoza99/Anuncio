@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
+using WebMotorsChallenge.Application.Queries.AdversitingQuery;
 using WebMotorsChallenge.Application.Queries.AdvertisementsQuery;
 
 namespace WebMotorsChallenge.API.Controllers
@@ -23,6 +24,30 @@ namespace WebMotorsChallenge.API.Controllers
                 logger.LogInformation("Get all Advertisements");
 
                 var result = await mediator.Send(new AdvertisementsQueryRequest());
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+
+                logger.LogInformation(ex.Message);
+
+                return BadRequest(StatusCodes.Status400BadRequest);
+
+            }
+        }
+
+        [HttpGet]
+        [Route("{id}")]
+        [ProducesResponseType(typeof(AdversitingQueryResponse), StatusCodes.Status200OK)]
+        public async Task<IActionResult> GetById([FromServices] IMediator mediator,
+                                                            [FromServices] ILogger<AdvertisingController> logger, int id)
+        {
+            try
+            {
+                logger.LogInformation("Get all Advertisements");
+
+                var result = await mediator.Send(new AdversitingQueryRequest(id));
 
                 return Ok(result);
             }
