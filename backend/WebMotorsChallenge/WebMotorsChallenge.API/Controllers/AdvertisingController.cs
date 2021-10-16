@@ -2,8 +2,10 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using System;
 using System.Threading.Tasks;
+using WebMotorsChallenge.Application.Commands.CreateAdvertisingCommand;
 using WebMotorsChallenge.Application.Queries.AdversitingQuery;
 using WebMotorsChallenge.Application.Queries.AdvertisementsQuery;
 
@@ -45,7 +47,7 @@ namespace WebMotorsChallenge.API.Controllers
         {
             try
             {
-                logger.LogInformation("Get all Advertisements");
+                logger.LogInformation($"Get Advertising by id: {id}");
 
                 var result = await mediator.Send(new AdversitingQueryRequest(id));
 
@@ -60,5 +62,55 @@ namespace WebMotorsChallenge.API.Controllers
 
             }
         }
+
+        [HttpPost]
+        [ProducesResponseType(typeof(CreateAdvertisingCommandResponse), StatusCodes.Status200OK)]
+        public async Task<IActionResult> Post([FromServices] IMediator mediator,
+                                                            [FromServices] ILogger<AdvertisingController> logger, 
+                                                            [FromBody] CreateAdvertisingCommandRequest request )
+        {
+            try
+            {
+                logger.LogInformation($"Create a new Advertising with proprerties: {JsonConvert.SerializeObject(request)}");
+
+                var result = await mediator.Send(request);
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+
+                logger.LogInformation(ex.Message);
+
+                return BadRequest(StatusCodes.Status400BadRequest);
+
+            }
+        }
+
+        [HttpDelete]
+        [Route("{id}")]
+        [ProducesResponseType(typeof(CreateAdvertisingCommandResponse), StatusCodes.Status200OK)]
+        public async Task<IActionResult> Delete([FromServices] IMediator mediator,
+                                                            [FromServices] ILogger<AdvertisingController> logger,
+                                                            int id)
+        {
+            try
+            {
+                logger.LogInformation($"Delete an Advertising with id: {id}");
+
+                var result = await mediator.Send(request);
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+
+                logger.LogInformation(ex.Message);
+
+                return BadRequest(StatusCodes.Status400BadRequest);
+
+            }
+        }
+
     }
 }
