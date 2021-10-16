@@ -31,6 +31,7 @@ namespace WebMotorsChallenge.API
             services.AddMediatR(applicationAssembly);
 
             services.AddRepositories();
+            services.AddServices();
 
             services.AddDbContextPool<AdvertisingContext>(
             options => options.UseSqlServer(Configuration.GetConnectionString("TesteWebMotorsDBConnection")));
