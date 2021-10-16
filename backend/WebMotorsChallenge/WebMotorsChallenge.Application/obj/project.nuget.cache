@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uXSpX5k+dja+wpkgh4Hp+C7u+lCnbc495MG4SQlI7B1YDuYivXyJDCF3w7ystO8G2id5g+kGLKAnTpk1prkEsQ==",
+  "dgSpecHash": "6+b0rxvlYP+LBBVJXEZv6L+fIhrkeOlCbcqzh1KMOSDW6zNmIyZQB8+bhCYTABJ3icEm6YOwLHdwI6BFtHVpEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Application\\WebMotorsChallenge.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Gustavo\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+    "C:\\Users\\Gustavo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Gustavo\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Gustavo\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

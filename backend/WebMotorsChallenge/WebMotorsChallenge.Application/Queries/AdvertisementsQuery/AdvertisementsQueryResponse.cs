@@ -8,6 +8,15 @@ namespace WebMotorsChallenge.Application.Queries.AdvertisementsQuery
 {
     public class AdvertisementsQueryResponse
     {
+        public AdvertisementsQueryResponse()
+        {
+
+        }
+
+        public List<AdvertisementsItems> Items { get; set; }
+    }
+    public class AdvertisementsItems
+    {
         public int Id { get; set; }
 
         public string Mark { get; set; }
@@ -21,6 +30,5 @@ namespace WebMotorsChallenge.Application.Queries.AdvertisementsQuery
         public int Mileage { get; set; }
 
         public string Note { get; set; }
-
     }
 }

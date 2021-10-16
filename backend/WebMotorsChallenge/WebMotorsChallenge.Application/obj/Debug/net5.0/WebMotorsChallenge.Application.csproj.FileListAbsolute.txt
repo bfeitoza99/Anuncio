@@ -10,3 +10,6 @@ C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\Web
 C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\obj\Debug\net5.0\WebMotorsChallenge.Application.dll
 C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\obj\Debug\net5.0\ref\WebMotorsChallenge.Application.dll
 C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\obj\Debug\net5.0\WebMotorsChallenge.Application.pdb
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\bin\Debug\net5.0\WebMotorsChallenge.Domain.dll
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\bin\Debug\net5.0\WebMotorsChallenge.Domain.pdb
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\obj\Debug\net5.0\WebMotorsChallenge.Application.csproj.CopyComplete

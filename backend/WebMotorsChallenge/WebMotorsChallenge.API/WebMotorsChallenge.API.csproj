@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.11">
       <PrivateAssets>all</PrivateAssets>
@@ -16,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WebMotorsChallenge.Application\WebMotorsChallenge.Application.csproj" />
+    <ProjectReference Include="..\WebMotorsChallenge.CrossCutting\WebMotorsChallenge.CrossCutting.csproj" />
     <ProjectReference Include="..\WebMotorsChallenge.Data\WebMotorsChallenge.Data.csproj" />
   </ItemGroup>
 

@@ -67,3 +67,7 @@ C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\Web
 C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.API\bin\Debug\net5.0\WebMotorsChallenge.Domain.pdb
 C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.API\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.API\bin\Debug\net5.0\WebMotorsChallenge.CrossCutting.dll
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.API\bin\Debug\net5.0\WebMotorsChallenge.CrossCutting.pdb
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

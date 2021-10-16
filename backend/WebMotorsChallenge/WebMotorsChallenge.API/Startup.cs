@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System;
+using WebMotorsChallenge.CrossCutting.DependencyInjection;
 using WebMotorsChallenge.Data;
 
 namespace WebMotorsChallenge.API
@@ -29,6 +30,8 @@ namespace WebMotorsChallenge.API
             var applicationAssembly = AppDomain.CurrentDomain.Load("WebMotorsChallenge.Application");
             services.AddMediatR(applicationAssembly);
 
+            services.AddRepositories();
+
             services.AddDbContextPool<AdvertisingContext>(
             options => options.UseSqlServer(Configuration.GetConnectionString("TesteWebMotorsDBConnection")));
  
@@ -36,6 +39,8 @@ namespace WebMotorsChallenge.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebMotors", Version = "v1", });
             });
+
+            services.AddAutoMapper(typeof(CrossCutting.AutoMapper.AutoMapperSetup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
