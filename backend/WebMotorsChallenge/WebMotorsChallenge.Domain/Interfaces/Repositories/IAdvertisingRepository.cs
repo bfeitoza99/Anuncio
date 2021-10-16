@@ -12,7 +12,7 @@ namespace WebMotorsChallenge.Domain.Interfaces.Repositories
         IList<Adversiting> All();
         Adversiting First(int id);
         Task Save(Adversiting adversiting);
-        Task Delete(Adversiting adversiting);
+        Task Delete(int id);
         Task<Adversiting> Update(Adversiting adversiting);
     }
 }

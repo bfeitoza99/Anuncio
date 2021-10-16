@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 using System;
 using System.Threading.Tasks;
 using WebMotorsChallenge.Application.Commands.CreateAdvertisingCommand;
+using WebMotorsChallenge.Application.Commands.DeleteAdvertinsingCommand;
 using WebMotorsChallenge.Application.Queries.AdversitingQuery;
 using WebMotorsChallenge.Application.Queries.AdvertisementsQuery;
 
@@ -89,7 +90,7 @@ namespace WebMotorsChallenge.API.Controllers
 
         [HttpDelete]
         [Route("{id}")]
-        [ProducesResponseType(typeof(CreateAdvertisingCommandResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(DeleteAdvertinsingCommandResponse), StatusCodes.Status200OK)]
         public async Task<IActionResult> Delete([FromServices] IMediator mediator,
                                                             [FromServices] ILogger<AdvertisingController> logger,
                                                             int id)
@@ -98,7 +99,7 @@ namespace WebMotorsChallenge.API.Controllers
             {
                 logger.LogInformation($"Delete an Advertising with id: {id}");
 
-                var result = await mediator.Send(request);
+                var result = await mediator.Send(new DeleteAdvertinsingCommandRequest(id));
 
                 return Ok(result);
             }

@@ -37,8 +37,10 @@ namespace WebMotorsChallenge.Data.Repositories
             await _unitOfWork.Commit();
         }
 
-        public async Task Delete(Adversiting adversiting)
+        public async Task Delete(int id)
         {
+            var adversiting = new Adversiting() { Id = id };
+            _context.Adversiting.Attach(adversiting);
             _context.Adversiting.Remove(adversiting);
             await _unitOfWork.Commit();
         }
