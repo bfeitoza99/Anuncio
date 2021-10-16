@@ -19,7 +19,7 @@ namespace WebMotorsChallenge.API.Controllers
         [Route("Mark")]
         [ProducesResponseType(typeof(List<VehicleMarkResponseDTO>), StatusCodes.Status200OK)]
         public async Task<IActionResult> GetVehiclesMark([FromServices] IChallengeIntegrationService service,
-                                                             [FromServices] ILogger<VehiclesController> logger, int id)
+                                                             [FromServices] ILogger<VehiclesController> logger)
         {
             try
             {
