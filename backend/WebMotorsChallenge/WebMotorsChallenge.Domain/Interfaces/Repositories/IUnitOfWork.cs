@@ -8,5 +8,6 @@ namespace WebMotorsChallenge.Domain.Interfaces.Repositories
 {
     public interface IUnitOfWork
     {
+        Task Commit();
     }
 }
