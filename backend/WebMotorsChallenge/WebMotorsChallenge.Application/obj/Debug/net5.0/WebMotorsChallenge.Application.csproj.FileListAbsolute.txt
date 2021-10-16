@@ -1,0 +1,12 @@
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\obj\Debug\net5.0\WebMotorsChallenge.Application.csproj.AssemblyReference.cache
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\obj\Debug\net5.0\WebMotorsChallenge.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\obj\Debug\net5.0\WebMotorsChallenge.Application.AssemblyInfoInputs.cache
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\obj\Debug\net5.0\WebMotorsChallenge.Application.AssemblyInfo.cs
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\obj\Debug\net5.0\WebMotorsChallenge.Application.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\bin\Debug\net5.0\WebMotorsChallenge.Application.deps.json
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\bin\Debug\net5.0\WebMotorsChallenge.Application.dll
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\bin\Debug\net5.0\ref\WebMotorsChallenge.Application.dll
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\bin\Debug\net5.0\WebMotorsChallenge.Application.pdb
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\obj\Debug\net5.0\WebMotorsChallenge.Application.dll
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\obj\Debug\net5.0\ref\WebMotorsChallenge.Application.dll
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Application\obj\Debug\net5.0\WebMotorsChallenge.Application.pdb
