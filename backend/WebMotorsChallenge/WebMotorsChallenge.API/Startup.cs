@@ -59,6 +59,13 @@ namespace WebMotorsChallenge.API
                 endpoints.MapControllers();
             });
 
+            using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+            {
+                var context = serviceScope.ServiceProvider.GetRequiredService<AdvertisingContext>();
+                context.Database.EnsureCreated();
+            }
+
+
             app.UseSwaggerUI(c =>
             {
                 c.RoutePrefix = string.Empty;

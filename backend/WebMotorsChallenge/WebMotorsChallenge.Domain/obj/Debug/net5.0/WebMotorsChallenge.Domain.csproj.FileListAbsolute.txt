@@ -1,0 +1,12 @@
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Domain\bin\Debug\net5.0\WebMotorsChallenge.Domain.deps.json
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Domain\bin\Debug\net5.0\WebMotorsChallenge.Domain.dll
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Domain\bin\Debug\net5.0\ref\WebMotorsChallenge.Domain.dll
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Domain\bin\Debug\net5.0\WebMotorsChallenge.Domain.pdb
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Domain\obj\Debug\net5.0\WebMotorsChallenge.Domain.csproj.AssemblyReference.cache
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Domain\obj\Debug\net5.0\WebMotorsChallenge.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Domain\obj\Debug\net5.0\WebMotorsChallenge.Domain.AssemblyInfoInputs.cache
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Domain\obj\Debug\net5.0\WebMotorsChallenge.Domain.AssemblyInfo.cs
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Domain\obj\Debug\net5.0\WebMotorsChallenge.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Domain\obj\Debug\net5.0\WebMotorsChallenge.Domain.dll
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Domain\obj\Debug\net5.0\ref\WebMotorsChallenge.Domain.dll
+C:\Users\Gustavo\Desktop\projetoWebMotors\Anuncio\backend\WebMotorsChallenge\WebMotorsChallenge.Domain\obj\Debug\net5.0\WebMotorsChallenge.Domain.pdb
