@@ -1,0 +1,282 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.CrossCutting\\WebMotorsChallenge.CrossCutting.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Application\\WebMotorsChallenge.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Application\\WebMotorsChallenge.Application.csproj",
+        "projectName": "WebMotorsChallenge.Application",
+        "projectPath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Application\\WebMotorsChallenge.Application.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Domain\\WebMotorsChallenge.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Domain\\WebMotorsChallenge.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.CrossCutting\\WebMotorsChallenge.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.CrossCutting\\WebMotorsChallenge.CrossCutting.csproj",
+        "projectName": "WebMotorsChallenge.CrossCutting",
+        "projectPath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.CrossCutting\\WebMotorsChallenge.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Application\\WebMotorsChallenge.Application.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Application\\WebMotorsChallenge.Application.csproj"
+              },
+              "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Data\\WebMotorsChallenge.Data.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Data\\WebMotorsChallenge.Data.csproj"
+              },
+              "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Domain\\WebMotorsChallenge.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Domain\\WebMotorsChallenge.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Data\\WebMotorsChallenge.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Data\\WebMotorsChallenge.Data.csproj",
+        "projectName": "WebMotorsChallenge.Data",
+        "projectPath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Data\\WebMotorsChallenge.Data.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Domain\\WebMotorsChallenge.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Domain\\WebMotorsChallenge.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Domain\\WebMotorsChallenge.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Domain\\WebMotorsChallenge.Domain.csproj",
+        "projectName": "WebMotorsChallenge.Domain",
+        "projectPath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Domain\\WebMotorsChallenge.Domain.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\Desktop\\projetoWebMotors\\Anuncio\\backend\\WebMotorsChallenge\\WebMotorsChallenge.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
